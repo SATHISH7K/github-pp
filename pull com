@@ -1,0 +1,15 @@
+mkdir siv
+cd siv
+pwd
+mkdir changes
+cd changes
+pwd
+git init
+git pull https://github.com/SATHISH7K/san.git
+C:/windows/notepad ram.txt
+C:/windows/notepad sal.txt  //new file name
+git add .
+git commit -m "changes made"
+git remote add origin https://github.com/SATHISH7K/san.git
+git remote -v
+git push -u origin master
