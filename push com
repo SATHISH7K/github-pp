@@ -1,0 +1,11 @@
+mkdir sat
+cd sat
+notepad rock.txt
+git init
+git config user.name "SATHISH7K"
+git config user.email "sathishkottedi@gmail.com"
+git remote add origin https://github.com/SATHISH7K/sat.git
+git add .
+git commit -m "changes made"
+git branch -m main
+git push -u origin main
